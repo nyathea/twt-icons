@@ -33,7 +33,7 @@ jobs:
             --compile output CombinedAssets.xcassets
 
       - name: Upload Assets.car
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: Assets.car
           path: output/Assets.car
